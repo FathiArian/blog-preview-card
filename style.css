@@ -1,0 +1,60 @@
+@font-face {
+    font-family: abc;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: abc;
+}
+body {
+    background-color: #f4d04e;
+}
+main {
+    border: 5px;
+    background-color: #ffffff;
+    width: 25%;
+    border-radius: 23px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.article-image {
+    width: 100%;
+    border-radius: 15px;
+}
+.badged {
+    background-color: #f4d04e;
+    display: block;
+    border-radius: 3px;
+    border: none;
+    padding: 6px 5px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.time {
+    font-size: small;
+    color: #6b6b6b;
+    margin-top: 5px;
+}
+h2 {
+    color: #121212;
+    margin: 5px;
+}
+p {
+    color: #6b6b6b;
+    margin-top: 10px;
+}
+.info {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.avatar {
+    width: 10%;
+}
+
